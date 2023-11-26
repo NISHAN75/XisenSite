@@ -1,0 +1,121 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .access-img img, .access-img-2 img{
+        max-width: 100%;
+    }
+   .access-img-2 img {
+        max-width: 100%;
+        margin-left: -60px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .access-img img {
+        margin-left: -30px;
+    }
+    .access-text h2 {
+        font-size: 36px;
+    }
+    .access-img img {
+        margin: 0;
+    }
+    .slider-text h2 {
+        font-size: 45px;
+        font-weight: 700;
+        color: #1c3354;
+        margin-bottom: 32px;
+        text-transform: capitalize;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .mean-bar {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slider-text h2 {
+        font-size: 40px;
+    }
+    .newsletter-area input {
+        width: 100%;
+    }
+    .newsletter-area button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .access-text h2 {
+        font-size: 35px;
+    }
+    .slider-area .row.align-items-center {
+        flex-direction: column-reverse;
+    }
+    .main-menu.text-center {
+        padding-top: 45px;
+    }
+    .header-area {
+        margin-top: 50px;
+    }
+    .mean-bar {
+        margin-top: -43px;
+    }
+    /* index 2 */
+    .section-title-2 h2 {
+        font-size: 25px;
+    }
+    .fea-icon svg, .what-icon svg {
+        left: 50%;
+    }
+    .features-img img {
+        margin-left: 0;
+    }
+    .how-work.mb-30 {
+        text-align: center;
+    }
+    .brand-active.owl-carousel .owl-item img {
+        margin: 0 auto;
+        padding: 0 115px;
+    }
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+ 
+}
+
+@media only screen and (max-width: 480px){
+
+    .slider-text h2 {
+        font-size: 30px;
+    }
+    .access-text h2 {
+        font-size: 28px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+    }
+}
