@@ -1,561 +1,536 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Site Title Here</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-    <!-- Place favicon.ico in the root directory -->
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/meanmenu.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/default.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>Site Title Here</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" href="site.webmanifest" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+		<!-- Place favicon.ico in the root directory -->
+		<!-- CSS here -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/magnific-popup.css" />
+		<link rel="stylesheet" href="css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="css/themify-icons.css" />
+		<link rel="stylesheet" href="css/meanmenu.css" />
+		<link rel="stylesheet" href="css/slick.css" />
+		<link rel="stylesheet" href="css/default.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
 
-  <body>
-    <!-- header area start -->
-    <header class="header-transprant">
-      <section class="header-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-2 col-md-2 d-flex align-items-center">
-              <div class="logo">
-                <a href="index.html">
-                  <img src="img/logo/logo.png" alt="..." />
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-md-8">
-              <div class="main-menu text-center">
-                <nav>
-                  <ul>
-                    <li>
-                      <a href="index.html" class="under-line-hover">Home</a>
-                    </li>
-                    <li>
-                      <a href="pages.html" class="under-line-hover">pages</a>
-                      <ul class="submenu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="pages.html">pages</a></li>
-                        <li><a href="portfolio.html">portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="feature.html">feature</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="portfolio.html" class="under-line-hover"
-                        >portfolio</a
-                      >
-                    </li>
-                    <li>
-                      <a href="blog.html" class="under-line-hover">Blog</a>
-                    </li>
-                    <li>
-                      <a href="feature.html" class="under-line-hover"
-                        >feature</a
-                      >
-                    </li>
-                    <li>
-                      <a href="contact.html" class="under-line-hover"
-                        >Contact</a
-                      >
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-2 d-flex align-items-center">
-              <div class="header-btn text-right text-xs-center">
-                <a href="#" class="btn border-btn">Sign up</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </header>
-    <!-- header area end -->
-    <!--=======================================
+	<body>
+		<!-- partial:index.partial.html -->
+
+		<div id="preloader">
+			<div class="content">
+				<svg class="ip" viewBox="0 0 256 128" width="256px" height="128px" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0">
+							<stop offset="0%" stop-color="#5ebd3e" />
+							<stop offset="33%" stop-color="#ffb900" />
+							<stop offset="67%" stop-color="#f78200" />
+							<stop offset="100%" stop-color="#e23838" />
+						</linearGradient>
+						<linearGradient id="grad2" x1="1" y1="0" x2="0" y2="0">
+							<stop offset="0%" stop-color="#e23838" />
+							<stop offset="33%" stop-color="#973999" />
+							<stop offset="67%" stop-color="#009cdf" />
+							<stop offset="100%" stop-color="#5ebd3e" />
+						</linearGradient>
+					</defs>
+					<g fill="none" stroke-linecap="round" stroke-width="16">
+						<g class="ip__track" stroke="#ddd">
+							<path d="M8,64s0-56,60-56,60,112,120,112,60-56,60-56" />
+							<path d="M248,64s0-56-60-56-60,112-120,112S8,64,8,64" />
+						</g>
+						<g stroke-dasharray="180 656">
+							<path class="ip__worm1" stroke="url(#grad1)" stroke-dashoffset="0" d="M8,64s0-56,60-56,60,112,120,112,60-56,60-56" />
+							<path class="ip__worm2" stroke="url(#grad2)" stroke-dashoffset="358" d="M248,64s0-56-60-56-60,112-120,112S8,64,8,64" />
+						</g>
+					</g>
+				</svg>
+			</div>
+		</div>
+
+		<!-- partial -->
+		<!-- header area start -->
+		<header class="header-transprant">
+			<section class="header-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 d-flex align-items-center">
+							<div class="logo">
+								<a href="index.html">
+									<img src="img/logo/logo.png" alt="..." />
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-8">
+							<div class="main-menu text-center">
+								<nav>
+									<ul>
+										<li>
+											<a href="index.html" class="under-line-hover">Home</a>
+										</li>
+										<li>
+											<a href="pages.html" class="under-line-hover">pages</a>
+											<ul class="submenu">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="pages.html">pages</a></li>
+												<li><a href="portfolio.html">portfolio</a></li>
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="feature.html">feature</a></li>
+												<li><a href="contact.html">Contact</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="portfolio.html" class="under-line-hover">portfolio</a>
+										</li>
+										<li>
+											<a href="blog.html" class="under-line-hover">Blog</a>
+										</li>
+										<li>
+											<a href="feature.html" class="under-line-hover">feature</a>
+										</li>
+										<li>
+											<a href="contact.html" class="under-line-hover">Contact</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 d-flex align-items-center">
+							<div class="header-btn text-right text-xs-center">
+								<a href="#" class="btn border-btn">Sign up</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		<!-- header area end -->
+		<!--=======================================
 			#main area section start#
 			========================================== -->
-    <!-- slider area start -->
-    <section class="slider-area position-relative fix">
-      <div class="shape-slider">
-        <img class="shape shape-1 position-absolute sd-one" src="img/s-1.png" alt="..." class="img-fluid">
-        <img class="shape shape-2 position-absolute sd-two" src="img/s-2.png" alt="..." class="img-fluid">
-        <img class="shape shape-3 position-absolute sd-three" src="img/s-3.png" alt="..." class="img-fluid">
-        <img class="shape shape-4 position-absolute sd-four" src="img/s-4.png" alt="..." class="img-fluid">
-        <img class="shape shape-5 position-absolute sd-four" src="img/s-5.png" alt="..." class="img-fluid">
-        <img class="shape shape-6 position-absolute sd-four" src="img/s-6.png" alt="..." class="img-fluid">
-      </div>
-      <div class="single-slider header-bg slide-height d-flex align-items-center">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-5 col-md-6">
-              <div class="slider-text pt-5">
-                <h2>
-                  <span class="green-color d-block">Advanced</span> Future
-                  Software Made Simple
-                </h2>
-                <p>
-                  Herb fill fowl fourth they're were whales don it first green
-                  years seasons seed behold fruitful let gathering good
-                </p>
-                <a href="index.html" class="btn">Free trial</a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 offset-xl-1">
-              <div class="bounce-animate">
-                <img src="img/slider/slider-1.png" alt="..." class="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- slider area end -->
-    <!-- how to work area  start-->
-    <section class="how-work-area pt-150 pb-120">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3 text-center">
-            <div class="section-title mb-90">
-              <h2>How it works</h2>
-              <p>Him have deep brought life darkness firmament unto move</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="how-work mb-30">
-              <div class="how-work-icon">
-                <i class="fas fa-tv"></i>
-              </div>
-              <div class="how-work-text">
-                <h3>Martket Analysis</h3>
-                <p>
-                  Place isn't form together male night light days created firman
-                </p>
-                <div class="hwo-to-work-link">
-                  <a href="#" class="read-more">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="how-work mb-30 active">
-              <div class="how-work-icon">
-                <i class="fas fa-tv"></i>
-              </div>
-              <div class="how-work-text">
-                <h3>Martket Analysis</h3>
-                <p>
-                  Place isn't form together male night light days created firman
-                </p>
-                <div class="hwo-to-work-link">
-                  <a href="#" class="read-more">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="how-work mb-30">
-              <div class="how-work-icon">
-                <i class="fas fa-tv"></i>
-              </div>
-              <div class="how-work-text">
-                <h3>Martket Analysis</h3>
-                <p>
-                  Place isn't form together male night light days created firman
-                </p>
-                <div class="hwo-to-work-link">
-                  <a href="#" class="read-more">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- how to work area end-->
-    <!-- access area start -->
-    <section class="access-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="access-img">
-              <img src="img/platform.png" alt="..." />
-            </div>
-          </div>
-          <div class="col-lg-5">
-            <div class="access-text pt-35">
-              <img src="img/access-t-bg.png" alt="..." />
-              <h2>Easy To <br />Access All Platform</h2>
-              <p>
-                Make fly forth also won't. Firmament seas whales drys season for
-                replenish without had Gathered days fill you'll whose air whose
-                firmament rule heaven can may on rule hath all of unto beginni
-                ad Light. Were blessed plant
-              </p>
-              <a href="#" class="btn">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- access area end -->
-    <!-- software future area start-->
-    <section class="software-area pt-150 pb-120">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3 text-center">
-            <div class="section-title mb-70">
-              <h2>Software Feature</h2>
-              <p>
-                Gathered was to yielding god heaven lights gitter about void
-                thing
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="how-work text-center mb-30">
-              <div class="how-work-icon">
-                <img
-                  src="img/access-t-bg.png"
-                  alt="..."
-                  class="img-fluid mb-30"
-                />
-              </div>
-              <div class="how-work-text">
-                <h3>Cloud Compatibility</h3>
-                <p>
-                  Place isn't form together male night light days created firman
-                </p>
-                <div class="hwo-to-work-link">
-                  <a href="#" class="read-more">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="how-work text-center mb-30 active">
-              <div class="how-work-icon">
-                <img
-                  src="img/access-t-bg.png"
-                  alt="..."
-                  class="img-fluid mb-30"
-                />
-              </div>
-              <div class="how-work-text">
-                <h3>Advance Security</h3>
-                <p>
-                  Place isn't form together male night light days created firman
-                </p>
-                <div class="hwo-to-work-link">
-                  <a href="#" class="read-more">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="how-work text-center mb-30">
-              <div class="how-work-icon">
-                <img
-                  src="img/access-t-bg.png"
-                  alt="..."
-                  class="img-fluid mb-30"
-                />
-              </div>
-              <div class="how-work-text">
-                <h3>Dedicated Support</h3>
-                <p>
-                  Place isn't form together male night light days created firman
-                </p>
-                <div class="hwo-to-work-link">
-                  <a href="#" class="read-more">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- software future area end-->
-    <!-- access area start -->
-    <section class="access-area">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-5 col-lg-5 pr-0">
-            <div class="access-text pt-35">
-              <img src="img/access-t-bg.png" alt="..." />
-              <h2>
-                Effortlessly manage<br />
-                all your information
-              </h2>
-              <p>
-                Make fly forth also won't. Firmament seas whales drys season for
-                replenish without had Gathered days fill you'll whose air whose
-                firmament rule heaven can may on rule hath all of unto beginni
-                ad Light. Were blessed plant
-              </p>
-              <a href="#" class="btn">Learn More</a>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-5 offset-xl-2">
-            <div class="access-img access-img-2">
-              <img src="img/access-b-bg.png" alt="..." class="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- access area end -->
-    <!-- price area start -->
-    <div class="price-area pt-120 pb-80">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3 text-center">
-            <div class="section-title mb-70">
-              <h2>Choose Your Plan</h2>
-              <p>
-                Gathered was to yielding god heaven lights gitter about void
-                thing
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-3 col-lg-3">
-            <div class="price-box text-center mb-30">
-              <div class="price-header">
-                <img src="img/access-t-bg.png" alt="" />
-                <h3>Standard</h3>
-                <div class="price-text">
-                  <h4>$20<span>/month</span></h4>
-                </div>
-              </div>
-              <div class="price-plan-list mt-35">
-                <ul>
-                  <li>15GB Cloud Storage</li>
-                  <li>15GB Storage</li>
-                  <li>Sale After Service</li>
-                  <li>3 Host Domain Service</li>
-                  <li>24/7 Support</li>
-                </ul>
-              </div>
-              <div class="price-link">
-                <a href="#">Purchase Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3">
-            <div class="price-box text-center mb-30 active">
-              <div class="price-header">
-                <img src="img/access-t-bg.png" alt="" />
-                <h3>Standard</h3>
-                <div class="price-text">
-                  <h4>$20<span>/month</span></h4>
-                </div>
-              </div>
-              <div class="price-plan-list mt-35">
-                <ul>
-                  <li>15GB Cloud Storage</li>
-                  <li>15GB Storage</li>
-                  <li>Sale After Service</li>
-                  <li>3 Host Domain Service</li>
-                  <li>24/7 Support</li>
-                </ul>
-              </div>
-              <div class="price-link">
-                <a href="#">Purchase Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3">
-            <div class="price-box text-center mb-30">
-              <div class="price-header">
-                <img src="img/access-t-bg.png" alt="" />
-                <h3>Standard</h3>
-                <div class="price-text">
-                  <h4>$20<span>/month</span></h4>
-                </div>
-              </div>
-              <div class="price-plan-list mt-35">
-                <ul>
-                  <li>15GB Cloud Storage</li>
-                  <li>15GB Storage</li>
-                  <li>Sale After Service</li>
-                  <li>3 Host Domain Service</li>
-                  <li>24/7 Support</li>
-                </ul>
-              </div>
-              <div class="price-link">
-                <a href="#">Purchase Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3">
-            <div class="price-box text-center mb-30">
-              <div class="price-header">
-                <img src="img/access-t-bg.png" alt="" />
-                <h3>Standard</h3>
-                <div class="price-text">
-                  <h4>$20<span>/month</span></h4>
-                </div>
-              </div>
-              <div class="price-plan-list mt-35">
-                <ul>
-                  <li>15GB Cloud Storage</li>
-                  <li>15GB Storage</li>
-                  <li>Sale After Service</li>
-                  <li>3 Host Domain Service</li>
-                  <li>24/7 Support</li>
-                </ul>
-              </div>
-              <div class="price-link">
-                <a href="#">Purchase Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- price area end1 -->
-    <footer>
-      <!-- footer area start -->
-      <section
-        class="pt-180 pb-60"
-        style="background-image: url(/img/footer-bg.png)"
-      >
-        <div class="footer-area">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4">
-                <div class="footer-widget mb-40">
-                  <div class="footer-text">
-                    <img src="img/logo/logo.png" alt="..." />
-                    <p>
-                      Winged moving moveth created for a shall and divide the
-                      their days male midst shall hath doesn't won't for. Midst
-                      life. Over and great night. Green upon years rule ying.
-                    </p>
-                  </div>
-                  <div class="footer-social">
-                    <a href="#"><i class="ti-facebook"></i></a>
-                    <a href="#"><i class="ti-twitter-alt"></i></a>
-                    <a href="#"><i class="ti-skype"></i></a>
-                    <a href="#"><i class="ti-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-2 col-lg-2">
-                <div class="footer-widget mb-40">
-                  <h3>About us</h3>
-                  <ul>
-                    <li><a href="#">Managed Website</a></li>
-                    <li><a href="#">Manage Reputation</a></li>
-                    <li><a href="#">Power Tools</a></li>
-                    <li><a href="#">Marketing Service</a></li>
-                    <li><a href="#">Customer Service</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-xl-2 col-lg-2">
-                <div class="footer-widget mb-40">
-                  <h3>About us</h3>
-                  <ul>
-                    <li><a href="#">Managed Website</a></li>
-                    <li><a href="#">Manage Reputation</a></li>
-                    <li><a href="#">Power Tools</a></li>
-                    <li><a href="#">Marketing Service</a></li>
-                    <li><a href="#">Customer Service</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-xl-2 col-lg-2">
-                <div class="footer-widget mb-40">
-                  <h3>About us</h3>
-                  <ul>
-                    <li><a href="#">Managed Website</a></li>
-                    <li><a href="#">Manage Reputation</a></li>
-                    <li><a href="#">Power Tools</a></li>
-                    <li><a href="#">Marketing Service</a></li>
-                    <li><a href="#">Customer Service</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-xl-2 col-lg-2">
-                <div class="footer-widget mb-40">
-                  <h3>About us</h3>
-                  <ul>
-                    <li><a href="#">Managed Website</a></li>
-                    <li><a href="#">Manage Reputation</a></li>
-                    <li><a href="#">Power Tools</a></li>
-                    <li><a href="#">Marketing Service</a></li>
-                    <li><a href="#">Customer Service</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyright-area">
-          <div class="container">
-            <div class="copy-right-border">
-              <div class="row">
-                <div class="col-xl-6">
-                  <div class="copyright">
-                    <p>Copyright © 2019 Xisen. All rights reserved</p>
-                  </div>
-                </div>
-                <div class="col-xl-6">
-                  <div class="footer-menu text-right">
-                    <ul>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">About</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- footer area end -->
-    </footer>
-    <!--========================================== 
+		<!-- slider area start -->
+		<section class="slider-area position-relative fix">
+			<div class="shape-slider">
+				<img class="shape shape-1 position-absolute sd-one" src="img/s-1.png" alt="..." class="img-fluid" />
+				<img class="shape shape-2 position-absolute sd-two" src="img/s-2.png" alt="..." class="img-fluid" />
+				<img class="shape shape-3 position-absolute sd-three" src="img/s-3.png" alt="..." class="img-fluid" />
+				<img class="shape shape-4 position-absolute sd-four" src="img/s-4.png" alt="..." class="img-fluid" />
+				<img class="shape shape-5 position-absolute sd-four" src="img/s-5.png" alt="..." class="img-fluid" />
+				<img class="shape shape-6 position-absolute sd-four" src="img/s-6.png" alt="..." class="img-fluid" />
+			</div>
+			<div class="single-slider header-bg slide-height d-flex align-items-center">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-md-6">
+							<div class="slider-text pt-5">
+								<h2><span class="green-color d-block">Advanced</span> Future Software Made Simple</h2>
+								<p>Herb fill fowl fourth they're were whales don it first green years seasons seed behold fruitful let gathering good</p>
+								<a href="index.html" class="btn">Free trial</a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 offset-xl-1">
+							<div class="bounce-animate">
+								<img src="img/slider/slider-1.png" alt="..." class="img-fluid" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- slider area end -->
+		<!-- how to work area  start-->
+		<section class="how-work-area pt-150 pb-120">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 offset-lg-3 text-center">
+						<div class="section-title mb-90">
+							<h2>How it works</h2>
+							<p>Him have deep brought life darkness firmament unto move</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="how-work mb-30">
+							<div class="how-work-icon">
+								<i class="fas fa-tv"></i>
+							</div>
+							<div class="how-work-text">
+								<h3>Martket Analysis</h3>
+								<p>Place isn't form together male night light days created firman</p>
+								<div class="hwo-to-work-link">
+									<a href="#" class="read-more">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="how-work mb-30 active">
+							<div class="how-work-icon">
+								<i class="fas fa-tv"></i>
+							</div>
+							<div class="how-work-text">
+								<h3>Martket Analysis</h3>
+								<p>Place isn't form together male night light days created firman</p>
+								<div class="hwo-to-work-link">
+									<a href="#" class="read-more">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="how-work mb-30">
+							<div class="how-work-icon">
+								<i class="fas fa-tv"></i>
+							</div>
+							<div class="how-work-text">
+								<h3>Martket Analysis</h3>
+								<p>Place isn't form together male night light days created firman</p>
+								<div class="hwo-to-work-link">
+									<a href="#" class="read-more">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- how to work area end-->
+		<!-- access area start -->
+		<section class="access-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="access-img">
+							<img src="img/platform.png" alt="..." />
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="access-text pt-35">
+							<img src="img/access-t-bg.png" alt="..." />
+							<h2>Easy To <br />Access All Platform</h2>
+							<p>Make fly forth also won't. Firmament seas whales drys season for replenish without had Gathered days fill you'll whose air whose firmament rule heaven can may on rule hath all of unto beginni ad Light. Were blessed plant</p>
+							<a href="#" class="btn">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- access area end -->
+		<!-- software future area start-->
+		<section class="software-area pt-150 pb-120">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 offset-lg-3 text-center">
+						<div class="section-title mb-70">
+							<h2>Software Feature</h2>
+							<p>Gathered was to yielding god heaven lights gitter about void thing</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="how-work text-center mb-30">
+							<div class="how-work-icon">
+								<img src="img/access-t-bg.png" alt="..." class="img-fluid mb-30" />
+							</div>
+							<div class="how-work-text">
+								<h3>Cloud Compatibility</h3>
+								<p>Place isn't form together male night light days created firman</p>
+								<div class="hwo-to-work-link">
+									<a href="#" class="read-more">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="how-work text-center mb-30 active">
+							<div class="how-work-icon">
+								<img src="img/access-t-bg.png" alt="..." class="img-fluid mb-30" />
+							</div>
+							<div class="how-work-text">
+								<h3>Advance Security</h3>
+								<p>Place isn't form together male night light days created firman</p>
+								<div class="hwo-to-work-link">
+									<a href="#" class="read-more">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="how-work text-center mb-30">
+							<div class="how-work-icon">
+								<img src="img/access-t-bg.png" alt="..." class="img-fluid mb-30" />
+							</div>
+							<div class="how-work-text">
+								<h3>Dedicated Support</h3>
+								<p>Place isn't form together male night light days created firman</p>
+								<div class="hwo-to-work-link">
+									<a href="#" class="read-more">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- software future area end-->
+		<!-- access area start -->
+		<section class="access-area">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-xl-5 col-lg-5 pr-0">
+						<div class="access-text pt-35">
+							<img src="img/access-t-bg.png" alt="..." />
+							<h2>
+								Effortlessly manage<br />
+								all your information
+							</h2>
+							<p>Make fly forth also won't. Firmament seas whales drys season for replenish without had Gathered days fill you'll whose air whose firmament rule heaven can may on rule hath all of unto beginni ad Light. Were blessed plant</p>
+							<a href="#" class="btn">Learn More</a>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-5 offset-xl-2">
+						<div class="access-img access-img-2">
+							<img src="img/access-b-bg.png" alt="..." class="img-fluid" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- access area end -->
+		<!-- price area start -->
+		<div class="price-area pt-120 pb-80">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 offset-lg-3 text-center">
+						<div class="section-title mb-70">
+							<h2>Choose Your Plan</h2>
+							<p>Gathered was to yielding god heaven lights gitter about void thing</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-lg-3">
+						<div class="price-box text-center mb-30">
+							<div class="price-header">
+								<img src="img/access-t-bg.png" alt="" />
+								<h3>Standard</h3>
+								<div class="price-text">
+									<h4>$20<span>/month</span></h4>
+								</div>
+							</div>
+							<div class="price-plan-list mt-35">
+								<ul>
+									<li>15GB Cloud Storage</li>
+									<li>15GB Storage</li>
+									<li>Sale After Service</li>
+									<li>3 Host Domain Service</li>
+									<li>24/7 Support</li>
+								</ul>
+							</div>
+							<div class="price-link">
+								<a href="#">Purchase Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3">
+						<div class="price-box text-center mb-30 active">
+							<div class="price-header">
+								<img src="img/access-t-bg.png" alt="" />
+								<h3>Standard</h3>
+								<div class="price-text">
+									<h4>$20<span>/month</span></h4>
+								</div>
+							</div>
+							<div class="price-plan-list mt-35">
+								<ul>
+									<li>15GB Cloud Storage</li>
+									<li>15GB Storage</li>
+									<li>Sale After Service</li>
+									<li>3 Host Domain Service</li>
+									<li>24/7 Support</li>
+								</ul>
+							</div>
+							<div class="price-link">
+								<a href="#">Purchase Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3">
+						<div class="price-box text-center mb-30">
+							<div class="price-header">
+								<img src="img/access-t-bg.png" alt="" />
+								<h3>Standard</h3>
+								<div class="price-text">
+									<h4>$20<span>/month</span></h4>
+								</div>
+							</div>
+							<div class="price-plan-list mt-35">
+								<ul>
+									<li>15GB Cloud Storage</li>
+									<li>15GB Storage</li>
+									<li>Sale After Service</li>
+									<li>3 Host Domain Service</li>
+									<li>24/7 Support</li>
+								</ul>
+							</div>
+							<div class="price-link">
+								<a href="#">Purchase Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3">
+						<div class="price-box text-center mb-30">
+							<div class="price-header">
+								<img src="img/access-t-bg.png" alt="" />
+								<h3>Standard</h3>
+								<div class="price-text">
+									<h4>$20<span>/month</span></h4>
+								</div>
+							</div>
+							<div class="price-plan-list mt-35">
+								<ul>
+									<li>15GB Cloud Storage</li>
+									<li>15GB Storage</li>
+									<li>Sale After Service</li>
+									<li>3 Host Domain Service</li>
+									<li>24/7 Support</li>
+								</ul>
+							</div>
+							<div class="price-link">
+								<a href="#">Purchase Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- price area end1 -->
+		<footer>
+			<!-- footer area start -->
+			<section class="pt-180 pb-60" style="background-image: url(/img/footer-bg.png)">
+				<div class="footer-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-4 col-lg-4">
+								<div class="footer-widget mb-40">
+									<div class="footer-text">
+										<img src="img/logo/logo.png" alt="..." />
+										<p>Winged moving moveth created for a shall and divide the their days male midst shall hath doesn't won't for. Midst life. Over and great night. Green upon years rule ying.</p>
+									</div>
+									<div class="footer-social">
+										<a href="#"><i class="ti-facebook"></i></a>
+										<a href="#"><i class="ti-twitter-alt"></i></a>
+										<a href="#"><i class="ti-skype"></i></a>
+										<a href="#"><i class="ti-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-2">
+								<div class="footer-widget mb-40">
+									<h3>About us</h3>
+									<ul>
+										<li><a href="#">Managed Website</a></li>
+										<li><a href="#">Manage Reputation</a></li>
+										<li><a href="#">Power Tools</a></li>
+										<li><a href="#">Marketing Service</a></li>
+										<li><a href="#">Customer Service</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-2">
+								<div class="footer-widget mb-40">
+									<h3>About us</h3>
+									<ul>
+										<li><a href="#">Managed Website</a></li>
+										<li><a href="#">Manage Reputation</a></li>
+										<li><a href="#">Power Tools</a></li>
+										<li><a href="#">Marketing Service</a></li>
+										<li><a href="#">Customer Service</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-2">
+								<div class="footer-widget mb-40">
+									<h3>About us</h3>
+									<ul>
+										<li><a href="#">Managed Website</a></li>
+										<li><a href="#">Manage Reputation</a></li>
+										<li><a href="#">Power Tools</a></li>
+										<li><a href="#">Marketing Service</a></li>
+										<li><a href="#">Customer Service</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-2">
+								<div class="footer-widget mb-40">
+									<h3>About us</h3>
+									<ul>
+										<li><a href="#">Managed Website</a></li>
+										<li><a href="#">Manage Reputation</a></li>
+										<li><a href="#">Power Tools</a></li>
+										<li><a href="#">Marketing Service</a></li>
+										<li><a href="#">Customer Service</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copyright-area">
+					<div class="container">
+						<div class="copy-right-border">
+							<div class="row">
+								<div class="col-xl-6">
+									<div class="copyright">
+										<p>Copyright © 2019 Xisen. All rights reserved</p>
+									</div>
+								</div>
+								<div class="col-xl-6">
+									<div class="footer-menu text-right">
+										<ul>
+											<li><a href="#">About</a></li>
+											<li><a href="#">About</a></li>
+											<li><a href="#">About</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- footer area end -->
+		</footer>
+		<!--========================================== 
 			#main area section end#
 			=======================================================================-->
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/one-page-nav-min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.meanmenu.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+		<!-- JS here -->
+		<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/one-page-nav-min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/jquery.meanmenu.min.js"></script>
+		<script src="js/ajax-form.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.scrollUp.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
