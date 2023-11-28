@@ -25,10 +25,10 @@
 	
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
-		if (scroll < 245) {
-			$(".header-sticky").removeClass("sticky");
+		if (scroll < 5) {
+			$("#header-sticky").removeClass("sticky");
 		} else {
-			$(".header-sticky").addClass("sticky");
+			$("#header-sticky").addClass("sticky");
 		}
 	});
 	// hover effect
@@ -66,11 +66,38 @@
 			autoplaySpeed: 10000,
 			dots: false,
 			fade: true,
-			arrows: false,
+			arrows: true,
+			prevArrow:'<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+			nextArrow:'<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
 			responsive: [
 				{ breakpoint: 767, settings: { dots: false, arrows: false } }
 			]
 		});
+		
+
+		// wave
+		$('#wave').wavify({
+			height: 60,
+			bones: 3,
+			amplitude: 40,
+			color: '#0bd',
+			speed: .25
+		  });
+		//  firefly 
+		  $.firefly({
+			total: 500,
+			ofTop: 0,
+			ofLeft: 0,
+			on: 'document.body', 
+			twinkle: 0.2, 
+			minPixel: 5,
+			maxPixel: 12,
+			color: '#fff',
+			namespace: 'jqueryFireFly', 
+			zIndex: Math.ceil(Math.random() * 20) - 1,
+			borderRadius: '50%',
+			_paused: false
+		  });
 	
 		function doAnimations(elements) {
 			var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -206,3 +233,4 @@
 
 	
 	})(jQuery);
+	

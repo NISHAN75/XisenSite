@@ -59,7 +59,7 @@
 
 		<!-- partial -->
 		<!-- header area start -->
-		<header class="header-transprant">
+		<header id="header-sticky" class="header-transprant">
 			<section class="header-area">
 				<div class="container">
 					<div class="row">
@@ -118,6 +118,7 @@
 			#main area section start#
 			========================================== -->
 		<!-- slider area start -->
+
 		<section class="slider-area position-relative fix">
 			<div class="shape-slider">
 				<img class="shape shape-1 position-absolute sd-one" src="img/s-1.png" alt="..." class="img-fluid" />
@@ -127,21 +128,77 @@
 				<img class="shape shape-5 position-absolute sd-four" src="img/s-5.png" alt="..." class="img-fluid" />
 				<img class="shape shape-6 position-absolute sd-four" src="img/s-6.png" alt="..." class="img-fluid" />
 			</div>
-			<div class="single-slider header-bg slide-height d-flex align-items-center">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-5 col-md-6">
-							<div class="slider-text pt-5">
-								<h2><span class="green-color d-block">Advanced</span> Future Software Made Simple</h2>
-								<p>Herb fill fowl fourth they're were whales don it first green years seasons seed behold fruitful let gathering good</p>
-								<a href="index.html" class="btn">Free trial</a>
+			<div class="slider-active">
+				<div class="single-slider slide-height d-flex align-items-center">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-5 col-md-6">
+								<div class="slider-text pt-5">
+									<h2 data-animation="fadeInLeft" data-delay="0.3s"><span class="green-color d-block">Advanced</span> Future Software Made Simple</h2>
+									<p data-animation="fadeInLeft" data-delay="0.5s">Herb fill fowl fourth they're were whales don it first green years seasons seed behold fruitful let gathering good</p>
+									<a href="index.html" class="btn" data-animation="fadeInUp" data-delay="1.2s">Free trial</a>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 offset-xl-1">
+								<div class="bounce-animate">
+									<img src="img/slider/slider-1.png" alt="..." class="img-fluid" data-animation="fadeInRight" data-delay="0.8s" />
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 offset-xl-1">
-							<div class="bounce-animate">
-								<img src="img/slider/slider-1.png" alt="..." class="img-fluid" />
+					</div>
+				</div>
+				<div class="single-slider header-bg slide-height d-flex align-items-center">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-5 col-md-6">
+								<div class="slider-text pt-5">
+									<h2 data-animation="fadeInLeft" data-delay="0.3s"><span class="green-color d-block">Advanced</span> Future Software Made Simple</h2>
+									<p data-animation="fadeInLeft" data-delay="0.5s">Herb fill fowl fourth they're were whales don it first green years seasons seed behold fruitful let gathering good</p>
+									<a href="index.html" class="btn" data-animation="fadeInUp" data-delay="1.2s">Free trial</a>
+									<a class="arrow scroll-target" href="#site-content"></a>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 offset-xl-1">
+								<div class="bounce-animate">
+									<img src="img/slider/slider-1.png" alt="..." class="img-fluid" data-animation="fadeInRight" data-delay="0.8s" />
+								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div class="single-slider header-bg slide-height d-flex align-items-center">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-5 col-md-6">
+								<div class="slider-text pt-5">
+									<h2 data-animation="fadeInLeft" data-delay="0.3s"><span class="green-color d-block">Advanced</span> Future Software Made Simple</h2>
+									<p data-animation="fadeInLeft" data-delay="0.5s">Herb fill fowl fourth they're were whales don it first green years seasons seed behold fruitful let gathering good</p>
+									<a href="index.html" class="btn" data-animation="fadeInUp" data-delay="1.2s">Free trial</a>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 offset-xl-1">
+								<div class="bounce-animate">
+									<img src="img/slider/slider-1.png" alt="..." class="img-fluid" data-animation="fadeInRight" data-delay="0.8s" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- wave -->
+		<section class="wave-area">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><path id="wave" d="" /></svg>
+		</section>
+		<!-- firefly -->
+		<section class="pt-200 pb-200">
+			<div id="firefly" class="d-flex justify-content-center align-items-center">
+				<div class="how-work-text">
+					<h3 style="color: #fff">Martket Analysis</h3>
+					<p style="color: #fff">Place isn't form together male night light days created firman</p>
+					<div class="hwo-to-work-link">
+						<a href="#" class="read-more text-white">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -519,6 +576,8 @@
 		<script src="js/vendor/modernizr-3.5.0.min.js"></script>
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 		<script src="js/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.wavify.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/isotope.pkgd.min.js"></script>
@@ -531,6 +590,7 @@
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script>
 		<script src="js/plugins.js"></script>
+		<script src="js/jquery.firefly-0.7.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
